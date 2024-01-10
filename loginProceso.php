@@ -2,8 +2,8 @@
 include_once 'model/conexion.php';
 //$usuario = $_POST['usuario'];
 //$contrasena = $_POST['contra'];
-$usuario = "paty@hotmail.com";
-$contrasena = "123";
+/* $usuario = "paty@hotmail.com";
+$contrasena = "123"; */
 
 
 $sentencia = $bd->prepare('SELECT * FROM docente WHERE correo = ? AND password = ?;');
